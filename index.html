@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Book Apponitment</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/timeslot.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+    <title> Calendar Appointment </title>
+</head>
+<body>
+    <div class="container">        
+        <!--header for Table and Forms-->
+        <a href="#"><img src="/img/bms-logo.png" alt="bookMySlot" width="90"></a>
+        <div class="calendar-assets">
+            <p id="currentDate"></p>
+            <div class="field">
+         
+                <form class="form-input" id="date-search" onsubmit="return setDate(this)">
+                    <input type="date" class="text-field" name="date" id="date" required>
+                    <button type="submit" class="btn btn-small" title="Pesquisar"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+
+            <div class="day-assets">
+                <button class="btn" onclick="prevDay()" title="Dia anterior"><i class="fas fa-chevron-left"></i> </button>
+                <button class="btn" onclick="resetDate()" title="Dia atual"><i class="fas fa-calendar-day"></i> Today</button>
+                <button class="btn" onclick="nextDay()" title="Próximo dia"><i class="fas fa-chevron-right"></i> </button>
+            </div>
+        </div>  
+
+        <div class="calendar" id="table">
+            <div class="header">
+                <!-- Aqui é onde ficará o h1 com o mês e o ano -->
+                <div class="month" id="month-header">
+
+                </div>
+                <div class="buttons">
+                    <button class="icon" onclick="prevMonth()" title="Mês anterior"><i class="fas fa-chevron-left"></i></button>
+                    <button class="icon" onclick="nextMonth()" title="Próximo mês"><i class="fas fa-chevron-right "></i></button>
+                </div>
+            </div>
+        </div>
+   
+  <div class="divider"></div>
+            <section id="calendar-section" class="body-sectiony">
+                
+                <div id="schedule-div">
+                    <div id="available-times-div"><!-- Available times --></div>
+                    <!-- <div id="calendar"></div> -->
+                </div>
+            </section>
+        
+
+        </div>
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/812e771e48.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
+<!-- partial -->
+  <!-- <script  src="./script.js"></script> -->
+  <script  src="js/storage.js"></script>
+  <script  src="js/schedule.js"></script>
+
+</body>
+</html>

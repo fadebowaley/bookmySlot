@@ -1,0 +1,88 @@
+#available-times-div {
+  display: none;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+  margin-left: 10px;
+}
+
+.time-slot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.time-btn {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border: 1px solid lightblue;
+  color: rgb(7, 7, 7);
+  background-color: white;
+  width: 100%;
+  font-weight: 500;
+  margin-bottom: 10px;
+  height: 3em;
+  font-size: 17px;
+  border-radius: 13px;
+}
+
+.time-btn:hover {
+  border-width: 2px;
+  border-color: dodgerblue;
+}
+
+.time-btn:focus {
+  background-color: rgb(0, 0, 0);
+  font-weight: 500;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.time-btn:focus:hover {
+  border: none;
+}
+
+.confirm-btn {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 100%;
+  margin-left: 5px;
+  height: 50px;
+  background-color: #0335ffad;
+  color: white;
+  border-radius: 13px;
+}
+
+.confirm-btn:hover {
+  border-width: 2px;
+  border-color: dodgerblue;
+}
+
+.confirm-btn:focus {
+  background-color: rgb(81, 231, 144);
+  font-weight: 500;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.containery {
+  background-color: none;
+  width: auto;
+  margin: 50px 0;
+  overflow: auto;
+}
+.description-sectiony {
+  padding: 0;
+  margin: 30px 5%;
+}
+.body-sectiony {
+  padding: 0;
+  margin: 30px 2%;
+}
