@@ -7,17 +7,7 @@ BookmySlot
   <br>
 </h1>
 
-<h4 align="center">A multi-User Booking calendar built with vanilla javascript <a href="#" target="_blank">BookmySlot</a>.</h4>
-
-
-
-<p align="center">
-
-  <a href="#">
-    <img src="/img/screencast-127.gif" width="100%";>
-  </a>
-</p>
-
+<h4 align="center">A multi-User Booking calendar built with vanilla javascript similar to calendly App<a href="#" target="_blank">BookmySlot</a>.</h4>
 
 
 
@@ -29,7 +19,12 @@ BookmySlot
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+<p align="center">
+
+  <a href="#">
+    <img src="/img/screencast-127.gif" width="100%";>
+  </a>
+</p>
 
 ## Key Features
 
