@@ -85,7 +85,7 @@ MIT
 
 ---
 
-> [amitmerchant.com](https://fadebowaley.github.io) &nbsp;&middot;&nbsp;
+> [fadebowaley.github.io](https://fadebowaley.github.io) &nbsp;&middot;&nbsp;
 > GitHub [@fadebowaley](https://github.com/fadebowaley) &nbsp;&middot;&nbsp;
 > Twitter [@fadebowaley](https://twitter.com/fadebowaley)
 
